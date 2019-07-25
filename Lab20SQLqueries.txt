@@ -7,7 +7,7 @@ SELECT * FROM customers WHERE CustomerID LIKE 'BL%';
 --#4
 SELECT * FROM orders LIMIT 100;
 --#5
-SELECT * FROM customers WHERE PostalCode in (1010,3012,12209,05023);
+SELECT * FROM customers WHERE PostalCode in ('1010','3012','12209','05023');
 --#6
 SELECT * FROM orders WHERE ShipRegion is not null;
 --#7
